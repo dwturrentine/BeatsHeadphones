@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f65fb189a4.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/simple-lightbox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Beats Headphones</title>
+</head>
+<body id="home">
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Beats</h1>
+                <ul class="nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+        </div>
+    </nav>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+
+    <!--This jQuery script initializes Simple Lightbox. 
+        create Variable set to jquery, select the wrapper class, then the links; images in links
+    lightbox does the rest-->
+    <script>
+        $(function() {
+
+            const $gallery = $('.gallery a').simpleLightbox();
+
+        });
+    </script>
+
+</body>
+</html>
